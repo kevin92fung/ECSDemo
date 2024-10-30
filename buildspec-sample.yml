@@ -4,9 +4,9 @@ phases:
   pre_build:
     commands:
       # Fill in ECR information
-      - REGISTRY_URI=711387094184.dkr.ecr.eu-west-1.amazonaws.com
-      - IMAGE_NAME=ecsdemo
-      - REGION=eu-west-1
+      - REGISTRY_URI=<registry uri>
+      - IMAGE_NAME=<image name>
+      - REGION=<region>
       # Fill in ECS information
       - CONTAINER_NAME=MyContainerName # TaskDefinition: container definition name (Wrapper for imageUri)
       # -----------------------
